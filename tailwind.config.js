@@ -7,10 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
-      },
+      fontFamily:{
+        Edu:["var(--font-Edu)"]
+      }
     },
   },
   plugins: [],
